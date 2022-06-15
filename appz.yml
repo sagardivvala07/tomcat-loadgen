@@ -1,8 +1,8 @@
 app:
   name: Tomcat Loadgen
   code: TCLG
-  notify: krishnan.rejith@gmail.com
-
+  notify: sagar.d@axiomio.com
+  
 build:
   version: 0.3
   env: DEV
@@ -11,7 +11,7 @@ build:
   image_template: tomcat9
 
 deploy:
-  context: rejith/DEV
+  context: sagardivvala07/DEV
   replicas: 4
   port: 8080
   strategy : rolling
